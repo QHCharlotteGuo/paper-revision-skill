@@ -29,83 +29,40 @@ Prefer analytical progression such as:
 
 For methodological reasoning, prefer:
 
-**problem characteristic → analytical requirement → methodological capability → consequence for the study**
-
-For literature-based arguments, establish:
-
-**what is known → what remains unresolved → why the unresolved issue matters → what the present study addresses**
-
-These are reasoning principles, not mandatory paragraph templates. Do not mechanically force every paragraph into the same structure.
-
-## 3. Make each sentence advance the analysis
-
-Each sentence should contribute new information, reasoning, evidence, interpretation, or methodological detail.
-
-Avoid sentences whose primary function is to:
-
-- announce that something is important;
-- repeat the preceding claim in different words;
-- praise the method;
-- reassure the reader that a methodological choice is reasonable;
-- preempt every possible objection;
-- provide a generic transition;
-- summarize an implication that is already obvious.
-
-If removing a sentence does not reduce the substantive content or logical continuity of the paragraph, consider removing it.
-
 ## 4. Avoid overdefensive writing
 
 Do not write the manuscript as a continuous response to hypothetical reviewers.
 
 Avoid repeatedly relying on structures such as:
 
-- "X is not A, but rather B";
-- "This does not mean that...";
-- "Instead...";
-- "Rather than...";
-- "It is important to note that...";
-- "Although X..., this does not...";
+- “X is not A, but rather B”;
+- “This does not mean that...”;
+- “Instead...”;
+- “Rather than...”;
+- “It is important to note that...”;
+- “Although X..., this does not...”;
 - repeated qualifications followed by qualifications of those qualifications.
 
 These constructions are acceptable when a genuine scientific distinction must be made. They should not become the organizing logic of a paragraph.
 
-A manuscript should primarily explain what the study does, why the research problem creates particular analytical requirements, what the evidence shows, and what follows from those findings.
-
-When incorporating reviewer feedback, absorb the underlying clarification into the scientific argument. Do not make the manuscript read like a rebuttal letter.
-
-**Diagnostic (deletion test):** temporarily remove "not / rather than / instead / however / although / importantly" from the paragraph. If almost no substantive content remains, the paragraph is defense, not analysis — rebuild it around what the study does and why the problem requires it. These words are fine in isolation; the problem is a paragraph whose logic depends on them to survive.
-
-## 5. Use problem–method fit for methodological justification
-
-Do not begin with a method and then generate generic reasons why it is appropriate.
-
-Start from the research problem.
-
-Identify the relevant characteristics of the data, estimand, decision problem, uncertainty, or downstream analysis. Then determine what capabilities the method must provide and explain how the selected method provides them.
-
-Do not justify a method mainly by listing why other methods are inferior.
-
-Discuss alternatives only when comparison is necessary to understand the methodological choice, contribution, or limitation.
-
-For example, if a stochastic optimization model requires joint municipality-level demand scenarios, explain why the downstream model requires joint scenarios, what dependence and uncertainty must therefore be represented, and how the statistical model generates the required scenarios. Do not construct an unnecessary sequence of defenses against ARIMA, LSTM, bootstrap, copulas, and other possible methods.
-
+A manuscript should primarily explain what the study does, why the research problem creates particular analytical requireme
 ## 6. Show rather than tell
 
 Demonstrate methodological suitability through concrete properties of the research problem.
 
 Avoid generic statements such as:
 
-"The proposed framework is well suited to sparse small-area data."
+“The proposed framework is well suited to sparse small-area data.”
 
 Prefer substantive explanation such as:
 
-"With only 20 quarterly observations per municipality, independently estimating municipality-specific demand processes would produce unstable estimates. Hierarchical partial pooling allows information to be shared across municipalities while retaining municipality-level heterogeneity."
+“With only 20 quarterly observations per municipality, independently estimating municipality-specific demand processes would produce unstable estimates. Hierarchical partial pooling allows information to be shared across municipalities while retaining municipality-level heterogeneity.”
 
-Similarly, do not call an approach "comprehensive," "robust," "effective," "novel," or "appropriate" when the underlying analysis can demonstrate the relevant property directly.
+Similarly, do not call an approach “comprehensive,” “robust,” “effective,” “novel,” or “appropriate” when the underlying analysis can demonstrate the relevant property directly.
 
 ## 7. Avoid template-like academic prose
 
-Use natural, publication-quality academic English.
+Use natural, publication-quality academic English appropriate for Industrial Engineering / Operations Research and public-health research. Preserve necessary technical terminology, but avoid both overly conversational language and inflated academic prose.
 
 Remove or avoid unnecessary:
 
@@ -116,13 +73,6 @@ Remove or avoid unnecessary:
 - excessive signposting;
 - rhetorical emphasis;
 - vague statements of importance.
-
-Do not overuse expressions such as "notably," "importantly," "moreover," "it is important to note," "underscore," "highlight," "multifaceted," "robust framework," "comprehensive approach," or similar stock phrases.
-
-These words are not prohibited. Use them only when they perform a genuine semantic or logical function.
-
-Do not substitute obscure vocabulary for ordinary precise language merely to make the prose sound sophisticated.
-
 ## 8. Control claim strength
 
 Match every claim to the evidence supporting it.
@@ -163,28 +113,7 @@ Do not call every difference from prior work a research gap.
 
 Methods writing should explain what was done and provide the information necessary to understand or reproduce the analysis.
 
-Explain methodological choices when the choice affects interpretation, identification, uncertainty, optimization behavior, or reproducibility.
-
-Do not defend every standard modeling decision.
-
-When a method is unfamiliar or central to the contribution, explain its role in the study before introducing technical detail.
-
-Maintain clear distinctions among data, assumptions, parameters, decision variables, estimands, objectives, constraints, statistical models, uncertainty representations, algorithms, and evaluation procedures.
-
-## 11. Write Results as results
-
-Report findings directly and precisely.
-
-Do not repeatedly explain why the findings are important or restate the Methods.
-
-Separate empirical findings from interpretation when appropriate.
-
-Avoid converting every numerical result into a rhetorical claim.
-
-Report uncertainty, effect size, model performance, or optimization outcomes in the form appropriate to the analysis.
-
-Do not selectively strengthen favorable results or defensively explain unfavorable ones.
-
+Explain methodological choices when the choice affects interpretation, identification, uncertainty, optimization behavior, 
 ## 12. Write Discussion as interpretation rather than repetition
 
 Use the Discussion to explain what the findings mean in relation to the research question and existing evidence.
@@ -205,7 +134,7 @@ The opening sentence should establish the issue when necessary, not merely annou
 
 The middle of the paragraph should develop the reasoning or evidence.
 
-Do not automatically add a final sentence that restates the paragraph or says that the findings "highlight the importance" of something.
+Do not automatically add a final sentence that restates the paragraph or says that the findings “highlight the importance” of something.
 
 Use transitions only when they represent a genuine logical relationship.
 
@@ -224,27 +153,6 @@ When a sentence merely announces what the next sentence will say, remove it unle
 ## 15. Separate writing problems from research problems
 
 When revising or drafting, distinguish between language issues and substantive scientific issues.
-
-If the issue is wording, fix the wording.
-
-If there is a potential:
-
-- methodological inconsistency;
-- unsupported claim;
-- citation mismatch;
-- mismatch between the described and implemented analysis;
-- interpretation unsupported by the results;
-- unclear estimand;
-- unjustified assumption;
-- inconsistency in terminology with substantive consequences;
-- gap that is not established by the literature;
-
-identify it separately.
-
-Do not hide a substantive problem through elegant rewriting.
-
-Do not invent a methodological solution when the available information is insufficient.
-
 ## 16. When drafting from notes or an outline
 
 Do not simply expand every bullet into several academic-sounding sentences.
@@ -299,3 +207,103 @@ For drafting tasks, deliver:
 ## References
 
 - `references/examples.md` — worked examples: the self-defense vs analytical rewrite, the full problem–requirement–method fit chain, and digesting reviewer feedback into the manuscript.
+
+
+If the issue is wording, fix the wording.
+
+If there is a potential:
+
+- methodological inconsistency;
+- unsupported claim;
+- citation mismatch;
+- mismatch between the described and implemented analysis;
+- interpretation unsupported by the results;
+- unclear estimand;
+- unjustified assumption;
+- inconsistency in terminology with substantive consequences;
+- gap that is not established by the literature;
+
+identify it separately.
+
+Do not hide a substantive problem through elegant rewriting.
+
+Do not invent a methodological solution when the available information is insufficient.
+or reproducibility.
+
+Do not defend every standard modeling decision.
+
+When a method is unfamiliar or central to the contribution, explain its role in the study before introducing technical detail.
+
+Maintain clear distinctions among data, assumptions, parameters, decision variables, estimands, objectives, constraints, statistical models, uncertainty representations, algorithms, and evaluation procedures.
+
+## 11. Write Results as results
+
+Report findings directly and precisely.
+
+Do not repeatedly explain why the findings are important or restate the Methods.
+
+Separate empirical findings from interpretation when appropriate.
+
+Avoid converting every numerical result into a rhetorical claim.
+
+Report uncertainty, effect size, model performance, or optimization outcomes in the form appropriate to the analysis.
+
+Do not selectively strengthen favorable results or defensively explain unfavorable ones.
+
+
+**Vague evaluative adjectives.** Words such as *substantial, significant, considerable, notable, meaningful, robust, comprehensive, critical, crucial, compelling, nuanced,* and *multifaceted* are not prohibited, but use them only when they convey a specific and justified meaning. Prefer reporting the actual magnitude, pattern, or result instead of relying on vague evaluative adjectives.
+
+**Transition and emphasis words.** Avoid excessive use of *notably, importantly, moreover, furthermore, additionally,* and *indeed*, especially at the beginning of paragraphs or sentences. Use transitions only when they clarify the logical relationship between ideas.
+
+**Formulaic interpretive verbs and phrases.** Be especially cautious with *underscore, highlight, reinforce, showcase, highlight the importance of,* and *underscore the need for*. Do not add sentences merely to tell the reader that a finding is “important.” State what the finding actually means for the research question, mechanism, method, or application.
+
+**Generic academic phrases.** Avoid phrases that add little substantive content, including *complex interplay, multifaceted nature, broader implications, valuable insights, nuanced understanding, comprehensive framework, holistic approach, critical role, key driver, growing body of literature,* and *meaningful contribution*. Replace them with specific descriptions of the variables, relationships, findings, methodological contribution, or unresolved problem.
+
+**Template-like constructions.** Avoid *It is important to note that...*, *It is worth noting that...*, *Taken together, these findings suggest that...*, *These results underscore the need for...*, and *This study contributes to the growing body of literature...* unless the sentence adds information that cannot be stated more directly.
+
+Do not substitute obscure vocabulary for ordinary precise language merely to make the prose sound sophisticated.
+
+Prioritize precise, concrete academic prose. Each sentence should advance the argument, report evidence, explain a methodological choice, interpret a specific result, or establish a research gap. Do not use academic-sounding language merely to make the writing appear sophisticated. If an adjective, adverb, transition, or interpretive sentence can be removed without changing the scientific meaning, remove it.
+nts, what the evidence shows, and what follows from those findings.
+
+When incorporating reviewer feedback, absorb the underlying clarification into the scientific argument. Do not make the manuscript read like a rebuttal letter.
+
+**Diagnostic (deletion test):** temporarily remove "not / rather than / instead / however / although / importantly" from the paragraph. If almost no substantive content remains, the paragraph is defense, not analysis — rebuild it around what the study does and why the problem requires it. These words are fine in isolation; the problem is a paragraph whose logic depends on them to survive.
+
+## 5. Use problem–method fit for methodological justification
+
+Do not begin with a method and then generate generic reasons why it is appropriate.
+
+Start from the research problem.
+
+Identify the relevant characteristics of the data, estimand, decision problem, uncertainty, or downstream analysis. Then determine what capabilities the method must provide and explain how the selected method provides them.
+
+Do not justify a method mainly by listing why other methods are inferior.
+
+Discuss alternatives only when comparison is necessary to understand the methodological choice, contribution, or limitation.
+
+For example, if a stochastic optimization model requires joint municipality-level demand scenarios, explain why the downstream model requires joint scenarios, what dependence and uncertainty must therefore be represented, and how the statistical model generates the required scenarios. Do not construct an unnecessary sequence of defenses against ARIMA, LSTM, bootstrap, copulas, and other possible methods.
+
+**problem characteristic → analytical requirement → methodological capability → consequence for the study**
+
+For literature-based arguments, establish:
+
+**what is known → what remains unresolved → why the unresolved issue matters → what the present study addresses**
+
+These are reasoning principles, not mandatory paragraph templates. Do not mechanically force every paragraph into the same structure.
+
+## 3. Make each sentence advance the analysis
+
+Each sentence should contribute new information, reasoning, evidence, interpretation, or methodological detail.
+
+Avoid sentences whose primary function is to:
+
+- announce that something is important;
+- repeat the preceding claim in different words;
+- praise the method;
+- reassure the reader that a methodological choice is reasonable;
+- preempt every possible objection;
+- provide a generic transition;
+- summarize an implication that is already obvious.
+
+If removing a sentence does not reduce the substantive content or logical continuity of the paragraph, consider removing it.
